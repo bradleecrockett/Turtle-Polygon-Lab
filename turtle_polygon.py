@@ -1,3 +1,15 @@
+# Name: First Last
+# Date:
+# Period:
+# Lab: turtle_polygon.py
+# Description: Replace the '''missing code''' comments to make the program run as described
+#
+#     Style - Code format, whitespace and PEP-8 style is followed making code easy to read.
+#     Comments - Blocks of code are well commented, every function has a descriptive comment.
+#     Tests -   The program runs as described in the specifications without errors(passes all tests).
+#       Three correct polygons are drawn.
+#       Program runs without errors.
+
 import turtle
 
 # Create a new turtle pen Object
