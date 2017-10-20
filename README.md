@@ -1,4 +1,4 @@
 # Turtle-Polygon-Lab
-Repplace the <code> '''missing code''' </code> comments with the appropriate code to make the turtle draw a regular polygon.
+Replace the  `'''missing code'''` comments with the appropriate code to make the turtle draw a regular polygon.
 
-Then call the <code>polygon(len: float, sides: int)</code> function inside <code> main() </code> 3 times to draw the required polygons.
+Then call the `polygon(len: float, sides: int)` function inside `main()` 3 times to draw the required polygons.
