@@ -17,67 +17,80 @@ import turtle
 t = turtle.Pen()
 
 
-def square(len):
+def square(side_length):
     # TODO Use a for loop to draw a square with a given side length
-    for x in range('''missing code'''):
-        t.forward('''missing code''')
-        t.left('''missing code''')
+    for x in range('''missing'''):
+        t.forward('''missing''')
+        t.left('''missing''')
 
 
-def pentagon(len):
+def pentagon(side_length):
     # TODO Use a for loop to draw a pentagon with a given side length
-    for x in range('''missing code'''):
-        t.forward('''missing code''')
-        t.left('''missing code''')
+    for x in range('''missing'''):
+        t.forward('''missing''')
+        t.left('''missing''')
 
 
-def hexagon(len):
+def hexagon(side_length):
     # TODO Use a for loop to draw a hexagon with a given side length
-    for x in range('''missing code'''):
-        t.forward('''missing code''')
-        t.left('''missing code''')
+    for x in range('''missing'''):
+        t.forward('''missing''')
+        t.left('''missing''')
 
 
-def octagon(len):
+def octagon(side_length):
     # TODO Use a for loop to draw a octagon with a given side length
-    for x in range('''missing code'''):
-        t.forward('''missing code''')
-        t.left('''missing code''')
+    for x in range('''missing'''):
+        t.forward('''missing''')
+        t.left('''missing''')
 
 
-def polygon(len, sides):
+def polygon(side_length, num_sides):
     # TODO Use a for loop to draw a polygon with a given side length and # of sides
-    for x in range('''missing code'''):
-        t.forward('''missing code''')
-        t.left('''missing code''')
+    for x in range('''missing'''):   
+        t.forward('''missing''')
+        t.left('''missing''')
 
 
 def main():
     t.penup()
-    t.goto(100, 100)
+    t.goto(-300, 300)
     t.pendown()
-    square(80)
+
+    square(50)  # draw a square with a side length of 50
+    square(80)  # draw a square with a side length of 80
     t.penup()
-    t.goto(-100, 100)
+    t.goto(-300, 100)
     t.pendown()
-    pentagon(80)
+
+    pentagon(50)  # draw a pentagon with a side length of 50
+    pentagon(80)    # draw a pentagon with a side length of 80
     t.penup()
-    t.goto(-100, -100)
+    t.goto(-300, -100)
     t.pendown()
-    hexagon(80)
+
+    hexagon(50)  # draw a hexagon with a side length of 50
+    hexagon(80)     # draw a hexagon with a side length of 80
     t.penup()
-    t.goto(100, -100)
+    t.goto(-300, -300)
     t.pendown()
-    octagon(80)
+
+    octagon(50)  # draw an octagon with a side length of 50
+    octagon(80)     # draw an octagon with a side length of 80
     t.penup()
     t.goto(0, 0)
     t.pendown()
-    # call the polygon function to make a square with a side length of 50
-    '''missing code'''
-    # call the polygon function to make a pentagon with a side length of 100
-    '''missing code'''
-    # call the polygon function to make a hexagon with a side length of 150
-    '''missing code'''
+
+
+    # TODO call the polygon function to make a square with a side length of 50
+    '''missing'''
+
+    # TODO call the polygon function to make a pentagon with a side length of 100
+    '''missing'''
+
+    # TODO call the polygon function to make a hexagon with a side length of 150
+    '''missing'''
+
     # Keep the turtle window open
     turtle.mainloop()
 
