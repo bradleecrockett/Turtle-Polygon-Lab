@@ -7,7 +7,7 @@
 #     Style - Code format, whitespace and PEP-8 style is followed making code easy to read.
 #     Comments - Blocks of code are well commented, every function has a descriptive comment.
 #     Tests -   The program runs as described in the specifications without errors(passes all tests).
-#       The square, pentagon, hexagon and octogon functions all work.
+#       The square, pentagon, hexagon and octagon functions all work.
 #       Three correct polygons are drawn.
 #       Program runs without errors.
 
@@ -38,8 +38,8 @@ def hexagon(len):
         t.left('''missing code''')
 
 
-def octogon(len):
-    # TODO Use a for loop to draw a octogon with a given side length
+def octagon(len):
+    # TODO Use a for loop to draw a octagon with a given side length
     for x in range('''missing code'''):
         t.forward('''missing code''')
         t.left('''missing code''')
@@ -68,7 +68,7 @@ def main():
     t.penup()
     t.goto(100, -100)
     t.pendown()
-    octogon(80)
+    octagon(80)
     t.penup()
     t.goto(0, 0)
     t.pendown()
